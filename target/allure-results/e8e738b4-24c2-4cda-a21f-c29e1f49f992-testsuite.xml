@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1597472116357" stop="1597472188053" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify minimum and maximum temperature</name>
+    <title>Verify minimum and maximum temperature</title>
+    <test-cases>
+        <test-case start="1597472126392" stop="1597472126396" status="passed">
+            <name>Given I am on DarkSky Home Page</name>
+            <title>Given I am on DarkSky Home Page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="1177@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597472137110" stop="1597472137110" status="passed">
+            <name>When I click on today button on home page</name>
+            <title>When I click on today button on home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="1177@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597472147256" stop="1597472147256" status="passed">
+            <name>And I get temperatures on home page</name>
+            <title>And I get temperatures on home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="1177@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597472157267" stop="1597472157267" status="passed">
+            <name>And I get minimum temperatures on home page</name>
+            <title>And I get minimum temperatures on home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="1177@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597472167282" stop="1597472167282" status="passed">
+            <name>And I get maximum temperatures on home page</name>
+            <title>And I get maximum temperatures on home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="1177@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597472177293" stop="1597472177294" status="passed">
+            <name>Then I verify minimum temperature on home page</name>
+            <title>Then I verify minimum temperature on home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="1177@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597472187307" stop="1597472187307" status="passed">
+            <name>Then I verify maximum temperature on home page</name>
+            <title>Then I verify maximum temperature on home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="newusers-MacBook-Pro.local"/>
+                <label name="thread" value="1177@newusers-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify minimum and maximum temperature"/>
+        <label name="feature" value="MainPage Feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

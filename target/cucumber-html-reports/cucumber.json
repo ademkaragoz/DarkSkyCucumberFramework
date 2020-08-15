@@ -1,0 +1,149 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1088727641,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on DarkSky Home Page",
+            "match": {
+              "location": "HomePageSD.verifyTitle()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8611632833,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify minimum and maximum temperature",
+        "description": "",
+        "id": "mainpage-feature;verify-minimum-and-maximum-temperature",
+        "after": [
+          {
+            "result": {
+              "duration": 4547707396,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 792038165,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on today button on home page",
+            "match": {
+              "location": "HomePageSD.clickTodayButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 207138763,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I get temperatures on home page",
+            "match": {
+              "location": "HomePageSD.getTemperature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233004,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get minimum temperatures on home page",
+            "match": {
+              "location": "HomePageSD.getMinTemp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93526,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I get maximum temperatures on home page",
+            "match": {
+              "location": "HomePageSD.getMaxTemp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45955,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify minimum temperature on home page",
+            "match": {
+              "location": "HomePageSD.verifyMinTemp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45475,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify maximum temperature on home page",
+            "match": {
+              "location": "HomePageSD.verifyMaxTemp()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@home"
+          }
+        ]
+      }
+    ],
+    "name": "MainPage Feature",
+    "description": "",
+    "id": "mainpage-feature",
+    "keyword": "Feature",
+    "uri": "Home.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@web"
+      }
+    ]
+  }
+]
